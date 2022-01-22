@@ -1,1 +1,1 @@
-exports.genCustomToken = require("./auth/genCustomToken");
+exports.auth = require("./auth/genCustomToken");
