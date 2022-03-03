@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "firebase-tools": "^10.2.2"
+  },
+  "scripts": {
+    "deploy:rules": "firebase deploy --only rules"
+  }
+}
