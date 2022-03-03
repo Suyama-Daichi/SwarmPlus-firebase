@@ -6,7 +6,8 @@
     "serve": "tsc-watch --onFirstSuccess 'firebase emulators:start --only functions'",
     "shell": "tsc-watch --onFirstSuccess 'firebase functions:shell'",
     "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
+    "deploy:func:auth": "firebase deploy --only functions:auth",
+    "deploy:rules": "firebase deploy --only rules",
     "logs": "firebase functions:log"
   },
   "engines": {
